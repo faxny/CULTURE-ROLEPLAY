@@ -119,7 +119,7 @@ async function createCategorySelectMenu() {
     );
 
     embed.setFooter({
-        text: "Made with ❤️"
+        text: "Culture Roleplay"
     });
     embed.setTimestamp();
 
@@ -130,12 +130,12 @@ async function createCategorySelectMenu() {
 
     const supportButton = new ButtonBuilder()
         .setLabel("Support Server")
-        .setURL("https://dsc.gg/cultureroleplay")
+        .setURL("https://discord.gg/HdA68pUk4j")
         .setStyle(ButtonStyle.Link);
 
     const touchpointButton = new ButtonBuilder()
         .setLabel("Sosial Media")
-        .setURL("https://www.tiktok.com/@culture.roleplay_?_r=1&_t=ZS-95iZepWBP7Z")
+        .setURL("https://www.tiktok.com/@culture.roleplay_")
         .setStyle(ButtonStyle.Link);
 
     const selectRow = createSelectMenu(
@@ -207,7 +207,7 @@ export const helpBugReportButton = {
             color: 'error'
         });
         bugReportEmbed.setFooter({
-            text: 'CrBot Bug Reporting System',
+            text: 'CRBot Bug Reporting System',
             iconURL: client.user.displayAvatarURL()
         });
         bugReportEmbed.setTimestamp();

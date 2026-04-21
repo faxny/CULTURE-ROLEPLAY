@@ -130,12 +130,12 @@ async function createCategorySelectMenu() {
 
     const supportButton = new ButtonBuilder()
         .setLabel("Support Server")
-        .setURL("https://discord.gg/QnWNz2dKCE")
+        .setURL("https://dsc.gg/cultureroleplay")
         .setStyle(ButtonStyle.Link);
 
     const touchpointButton = new ButtonBuilder()
-        .setLabel("Learn from Touchpoint")
-        .setURL("https://www.youtube.com/@TouchDisc")
+        .setLabel("Sosial Media")
+        .setURL("https://www.tiktok.com/@culture.roleplay_?_r=1&_t=ZS-95iZepWBP7Z")
         .setStyle(ButtonStyle.Link);
 
     const selectRow = createSelectMenu(
@@ -191,7 +191,7 @@ export const helpBugReportButton = {
         const githubButton = new ButtonBuilder()
             .setLabel('🐛 Report Bug on GitHub')
             .setStyle(ButtonStyle.Link)
-            .setURL('https://github.com/codebymitch/TitanBot/issues');
+            .setURL('https://github.com/faxny/terms-of-service/issues');
 
         const bugRow = new ActionRowBuilder().addComponents(githubButton);
 
@@ -207,7 +207,7 @@ export const helpBugReportButton = {
             color: 'error'
         });
         bugReportEmbed.setFooter({
-            text: 'TitanBot Bug Reporting System',
+            text: 'CrBot Bug Reporting System',
             iconURL: client.user.displayAvatarURL()
         });
         bugReportEmbed.setTimestamp();

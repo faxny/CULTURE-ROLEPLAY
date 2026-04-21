@@ -133,7 +133,7 @@ async function createCategorySelectMenu() {
         .setURL("https://discord.gg/HdA68pUk4j")
         .setStyle(ButtonStyle.Link);
 
-    const touchpointButton = new ButtonBuilder()
+    const sosialmediaButton = new ButtonBuilder()
         .setLabel("Sosial Media")
         .setURL("https://www.tiktok.com/@culture.roleplay_")
         .setStyle(ButtonStyle.Link);
@@ -147,7 +147,7 @@ async function createCategorySelectMenu() {
     const buttonRow = new ActionRowBuilder().addComponents([
         bugReportButton,
         supportButton,
-        touchpointButton,
+        sosialmediaButton,
     ]);
 
     return {
